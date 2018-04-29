@@ -1,0 +1,20 @@
+﻿Build started 09/04/2017 18:05:02.
+     1>Project "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.5\2_Graphics\kanulia\Mandelbrot_vs2013.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64/Release/) contains files shared from another project (Mandelbrot.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/win64/Release//kanulia.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\x64" /LIBPATH:../../common/lib/x64 glew64.lib cudart_static.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"../../bin/win64/Release/kanulia.pdb" /SUBSYSTEM:CONSOLE /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../bin/win64/Release/kanulia.lib" /MACHINE:X64 x64/Release/kanuliacalc.cu.obj
+         x64/Release/kanuliarepart.cu.obj
+         x64/Release/kanulia_cuda.cu.obj
+         x64/Release/kanulia.res
+         x64/Release/kanulia.obj
+         x64/Release/kanulia_gold.obj
+         "x64/Release/kanulia.device-link.obj"
+            Creating library ../../bin/win64/Release/kanulia.lib and object ../../bin/win64/Release/kanulia.exp
+         Generating code
+         Finished generating code
+         Mandelbrot_vs2013.vcxproj -> C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.5\2_Graphics\kanulia\../../bin/win64/Release/kanulia.exe
+     1>Done Building Project "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v7.5\2_Graphics\kanulia\Mandelbrot_vs2013.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.91
